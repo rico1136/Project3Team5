@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a05c70504af25409648d9db14b5896, type: 3}
+  m_Name: Part2Question5
+  m_EditorClassIdentifier: 
+  question: Na de melee komt de jonkvrouw van het toernooi naar je toe.
+  answer1Item: {fileID: 11400000, guid: 78aa1161d9a3a0244a9376444622fbe2, type: 2}
+  answer1Text: je heer geeft de witte roos aan de jonkvrouw en gaan trouwen, jij
+    wordt de eerste ridder van het hof.
+  answer2Item: {fileID: 11400000, guid: 5f942eff5fc9fd04ab5c71f1bf232f6e, type: 2}
+  answer2Text: Jij wordt door de jonkvrouw geslagen tot ridder.
+  answer3Text: Je heer en jij worden uitgenodigd voor de afterparty.

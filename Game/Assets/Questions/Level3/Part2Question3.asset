@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a05c70504af25409648d9db14b5896, type: 3}
+  m_Name: Part2Question3
+  m_EditorClassIdentifier: 
+  question: De heer kijkt tussen alle spullen en zoekt zijn familiewapen. "Knecht!
+    Waar is mijn familiewapen? Ik moet mijn familie vertegenwoordigen!"
+  answer1Item: {fileID: 11400000, guid: 2d7f6ce3cef5f464798a1d7f37f4112e, type: 2}
+  answer1Text: Je heer vertegenwoordigd zijn familie en is ook nog goed beschermd.
+  answer2Item: {fileID: 11400000, guid: 10f4c6bd9645cc94b844ee186475a95e, type: 2}
+  answer2Text: Je heer vertegenwoordigd zijn familie, maar moet dat ding wel vasthouden.
+  answer3Text: Je heer mag niet meedoen aan het toernooi zonder familiekleuren, dus
+    meng je kleurstof en modder en verf je zijn harnas. Het werkt, maar trots is
+    hij niet.

@@ -3,19 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class CountDownTimer : MonoBehaviour
 {
-    public float timeLeft = 120f;
-    public TMP_Text textComponent;
+    public float timeLeft;
+    public GameObject fill;
+    float maxTime;
+    [HideInInspector]
+    public bool hasWalked = false;
+    public bool paused;
 
+    private void Start()
+    {
+        maxTime = timeLeft;
+    }
     public void Update()
     {
-        timeLeft -= Time.deltaTime;
-        textComponent.text = Mathf.Round(timeLeft) + " secondes";
-        if (timeLeft < 0)
+        if (hasWalked)
         {
-            SecondFase();
+            if (!paused)
+            {
+                timeLeft -= Time.deltaTime;
+            }
+            
+            fill.GetComponent<Image>().fillAmount = (timeLeft / maxTime);
+            if (timeLeft < 0)
+            {
+                SecondFase();
+            }
         }
     }
 

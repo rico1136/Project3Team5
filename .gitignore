@@ -4,6 +4,7 @@
 # Other files and folders
 Game/Library/*
 Game/Temp/*
+Game/Build/*
 
 # Executables
 
@@ -11,3 +12,5 @@ Game/Temp/*
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+Game/Assets/Low-Poly Weapons/Textures/Weapons.tif.meta
+Game/Assets/Low-Poly Weapons/Textures/Weapons.tif

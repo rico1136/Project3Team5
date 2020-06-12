@@ -42,4 +42,14 @@ public class Inventory : MonoBehaviour
             onItemChangedCallback.Invoke();
         }
     }
+
+    public void ResetInventory() 
+    {
+        items.Clear();
+        if (onItemChangedCallback != null)
+        {
+            onItemChangedCallback.Invoke();
+        }
+    }
+
 }

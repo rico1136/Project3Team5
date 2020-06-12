@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a05c70504af25409648d9db14b5896, type: 3}
+  m_Name: Part1Question2
+  m_EditorClassIdentifier: 
+  question: De heer en zijn knecht komen bij een riviertje. Ze willen deze oversteken,
+    maar de brug is in het midden ingestort. "Hoe gaan we nu aan de overkant komen?
+    We moeten naar het toernooi toe!" schreeuwt de heer.
+  answer1Item: {fileID: 11400000, guid: 811140aeabf15c64388f8ec00bc176be, type: 2}
+  answer1Text: Jullie gebruiken de bezem om over het gat in de brug te springen.
+    Jij en je heer blijven droog, en kunnen comfortabel verder met de reis.
+  answer2Item: {fileID: 11400000, guid: 30c55dae3f608de46b66957376ef0b7e, type: 2}
+  answer2Text: Je maakt het uiteinde vast aan een steen en gooit deze naar de overkant,
+    langs het touw steken jullie het riviertje over, maar hierdoor komen jullie doorweekt
+    aan bij de overkant.
+  answer3Text: Jij en je heer steken de rivier zwemmend over, maar door de stroming
+    drijven jullie wel af, de reis wordt er niet korter op.

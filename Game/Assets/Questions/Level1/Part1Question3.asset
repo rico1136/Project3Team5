@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a05c70504af25409648d9db14b5896, type: 3}
+  m_Name: Part1Question3
+  m_EditorClassIdentifier: 
+  question: 'Na een lange tocht zijn de heer en zijn knecht verdwaald geraakt. Ze
+    weten niet meer welke kant ze de weg moeten vervolgen. "Volgens mij moeten we
+    deze kant op. Of was het toch deze kant?" aarzelt de heer. '
+  answer1Item: {fileID: 11400000, guid: ecada43fd48dc7f4f86afca78877fc76, type: 2}
+  answer1Text: Je weet precies welke kant jullie op moeten en vervolgen jullie weg.
+  answer2Item: {fileID: 11400000, guid: 01b6595a0806b4c4e8993f7f551ab8d2, type: 2}
+  answer2Text: Het duurt even om uit te zoeken wat de richting is, je loopt vertraging
+    op.
+  answer3Text: Je raakt verdwaald, hierdoor duurt de reis een stuk langer.
